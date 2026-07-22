@@ -15,5 +15,25 @@ The goal is to transform raw retail transaction data into trusted analytical dat
 ## Architecture
 
 The platform follows a modern analytics architecture:
-
 Raw Data → Lakehouse → Warehouse → dbt Transformations → Power BI
+
+## Microsoft Fabric Workspace
+
+A dedicated Microsoft Fabric workspace was created to host the retail analytics platform.
+
+The workspace will contain:
+
+- Lakehouse for raw data storage
+- Warehouse for analytical modeling
+- Power BI reports for business insights
+
+Architecture layers:
+
+Bronze:
+Raw data stored in Lakehouse
+
+Silver:
+Cleaned and transformed warehouse tables
+
+Gold:
+Business-ready star schema models
