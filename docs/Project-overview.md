@@ -37,3 +37,22 @@ Cleaned and transformed warehouse tables
 
 Gold:
 Business-ready star schema models
+
+
+## Bronze Layer - Lakehouse
+
+The Bronze layer stores raw source data in Microsoft Fabric Lakehouse.
+
+Purpose:
+
+- Preserve original source data
+- Provide historical data retention
+- Create a reliable foundation for downstream transformations
+
+Technology:
+
+Microsoft Fabric Lakehouse
+
+Object:
+
+lh_retail_sales
