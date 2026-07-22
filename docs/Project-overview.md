@@ -50,9 +50,25 @@ Purpose:
 - Create a reliable foundation for downstream transformations
 
 Technology:
-
 Microsoft Fabric Lakehouse
 
 Object:
+lh_retail_sales
+
+The Bronze layer is implemented using Microsoft Fabric Lakehouse.
+
+The purpose of this layer is to store raw source data with minimal transformation.
+
+## Lakehouse
+
+Name:
 
 lh_retail_sales
+
+Responsibilities:
+- Store raw retail datasets
+- Preserve source data history
+- Provide a foundation for downstream transformations
+
+Data Flow:
+Source Files → Fabric Lakehouse → Warehouse → dbt Models → Power BI
