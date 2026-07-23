@@ -91,4 +91,18 @@ Benefits:
 - Ensures reproducibility
 - Allows controlled package versions
 
+
+# Installed Versions
+
+The dbt development environment was successfully configured.
+
+Installed components:
+
+| Component | Version |
+|---|---|
+| Python | 3.12 |
+| dbt Core | 1.12.0 |
+| dbt Fabric Adapter | 1.10.0 |
+
+The Fabric adapter enables dbt Core to execute SQL transformations against Microsoft Fabric Lakehouse objects.
  
